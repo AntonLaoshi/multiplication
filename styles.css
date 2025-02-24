@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-color: 	#100312;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-section {
+  width: 1200px;
+  height: 600px;
+  border: 2px solid #1b460b;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+  gap: 30px;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  color: antiquewhite;
+  margin-bottom: 50px;
+}
+
+.question-field {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.btn {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  color: #124100;
+  border: 2px solid #1b460b;
+  margin-bottom: 25px;
+  width: 150px;
+  height: 70px;
+  background-color: #e8c064;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+p {
+  color: aliceblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+}
+
+.left,
+.right {
+  width: 150px;
+  height: 100px;
+  border: 2px solid #1b460b;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.right p, .left p {
+  color: #C5D885;
+  font-size: 80px;
+}
+
+.answer-field {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 25px;
+}
+
+input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100px;
+  width: 300px;
+  margin-left: 40px;
+  border: none;
+}
+
+.count {
+  height: 600px;
+  width: 500px;
+  border: 2px solid #1b460b;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.answers-count {
+  width: 90%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.answers-count p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 250px;
+  margin-top: 35px;
+}
+
+.record {
+  display: block;
+}

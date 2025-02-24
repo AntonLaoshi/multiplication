@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="first">
+      <section class="main-section">
+        <h2>Тренажер таблицы умножения</h2>
+
+        <div class="question-field">
+          <div class="left">
+            <p class="left-number" id="left-number"></p>
+          </div>
+          <p>*</p>
+          <div class="right">
+            <p class="right-number" id="right-number"></p>
+          </div>
+        </div>
+        <div class="answer-field">
+          <p>Ответ:</p>
+          <input type="text" id="answer" autocomplete="off" />
+        </div>
+        <button class="btn answer" type="button" id="giveAnswer">
+          Ответить
+        </button>
+      </section>
+      <aside class="count">
+        <h2>Правильных ответов:</h2>
+        <div class="answers-count">
+          <p id="rightAnswers">0</p>
+        </div>
+      </aside>
+    </div>
+    <div class="record">
+      <p id="record"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

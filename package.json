@@ -4,5 +4,19 @@
   },
   "dependencies": {
     "servor": "^4.0.2"
-  }
+  },
+  "name": "school_training",
+  "version": "1.0.0",
+  "description": "Online training in math and english",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonLaoshi/multiplication.git"
+  },
+  "author": "Anton Kostiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonLaoshi/multiplication/issues"
+  },
+  "homepage": "https://github.com/AntonLaoshi/multiplication#readme"
 }

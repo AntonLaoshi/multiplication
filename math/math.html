@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School training - Математика</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header class="main-header">
+
+        <div class="logo"><span>.</span><span class="digit">5</span><a href="../index.html">grade</a></div>
+        <a href="#" class="register">Register</a>
+
+
+        <div class="head-text">
+          <h1><span>S</span>chool training</h1>
+        </div>
+     </header>    
+    <main>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Умножение')"><span>Т</span>ренажёр умножения</button>
+        <button class="tablinks" onclick="openCity(event, 'Деление')"><span>Т</span>ренажёр деления</button>
+      </div>
+
+<!-- Tab content -->
+      <div id="Умножение" class="tabcontent">
+        <h3>Тренажёр умножения</h3>
+        <p class="description">Произведите вычисление и напишите ответ</p>
+        <div class="wrapper">
+          <div class="question">
+            <div class="first-int-mult el"></div>
+            <p class="el">*</p>
+            <div class="second-int-mult el"></div>
+            <p class="el">=</p>
+            <input type="text" name="answer" id="answer-mult" class="el" autocomplete="off">
+            <button class="btn" type="button" id="giveAnswer">Ответить</button>
+          </div>
+          <div class="records">
+            <h3>Правильные ответы:</h3>
+            <div class="current-record" id="current-record"></div>
+            <div class="max-record" id="max-record"></div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div id="Деление" class="tabcontent">
+        <h3>Тренажёр деления</h3>
+        <p class="description">Произведите вычисление и напишите ответ</p>
+        <div class="wrapper">
+          <div class="question">
+            <div class="first-int-div el"></div>
+            <p class="el">:</p>
+            <div class="second-int-div el"></div>
+            <p class="el">=</p>
+            <input type="text" name="answer" id="answer-div" class="el" autocomplete="off">
+            <button class="btn" type="button" id="giveDivAnswer" value="Ответить">Ответить</button>
+          </div>
+          <div class="records">
+            <h3>Правильные ответы:</h3>
+            <div class="current-record" id="div-current-record"></div>
+            <div class="max-record" id="div-max-record"></div>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+        
+
+     
+<script src="../src/index.js"></script>
+</body>
+</html>
